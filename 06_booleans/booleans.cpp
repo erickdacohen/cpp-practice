@@ -8,12 +8,12 @@ int main()
     bool my_bool = true;
     std::cout << "My bool: " << my_bool << std::endl;
 
-    if (my_bool) 
+    if (my_bool)
     {
         std::cout << "Nice!" << std::endl;
         return 0;
     }
-    else 
+    else
     {
         std::cerr << my_bool << ":( " << std::endl;
         return 1;

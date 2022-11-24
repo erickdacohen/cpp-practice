@@ -14,7 +14,7 @@ int main()
     char character_3 = 'l';
     char character_4 = 'l';
     char character_5 = 'o';
-    
+
     std::cout << character_1 << character_2 << character_3 << character_4 << character_5 << std::endl;
 
     return 0;

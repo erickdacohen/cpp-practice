@@ -17,7 +17,7 @@ int main()
     // Division
     std::cout << "a / b = " << a / b << std::endl;
 
-    // Modulus example 
+    // Modulus example
     int c = 6;
     int d = 11;
     std::cout << "Modulus operator only works with integers. So we will use c = 6 and d = 11 to find\nc % d = " << c % d << std::endl;
