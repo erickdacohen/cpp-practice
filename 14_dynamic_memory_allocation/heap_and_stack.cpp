@@ -32,5 +32,19 @@ int main()
     delete pointer_1;
     pointer_1 = nullptr;
 
+    std::cout << "Dynamically Allocated Arrays" << std::endl;
+
+    float *example_array = new float[5];
+
+    example_array[1] = 3.0;
+
+    for (size_t i = 0; i < 5; i++)
+    {
+        std::cout << "Array Value: " << example_array[i] << std::endl;
+        std::cout << "Array pointer: " << &example_array[i] << std::endl;
+    }
+
+    delete[] example_array;
+    example_array = nullptr;
     return 0;
 }
