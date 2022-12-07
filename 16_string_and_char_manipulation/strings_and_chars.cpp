@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
@@ -61,6 +62,12 @@ int main()
     };
 
     std::cout << "itterations: " << itterations << std::endl;
+    std::cout << "Using std::string library:\n"
+              << std::endl;
+
+    std::string message = "This is my message.";
+
+    std::cout << message << std::endl;
 
     return 0;
 }
